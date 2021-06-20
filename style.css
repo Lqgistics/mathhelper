@@ -7,23 +7,11 @@
 :root {
 	--web-view-ids: Home;
 }
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	border: none;
-}
-#Home {
-	position: absolute;
-	width: 1400px;
-	height: 680.5px;
-	background-color: rgba(243,243,243,1);
-	overflow: hidden;
-	--web-view-name: Home;
-	--web-view-id: Home;
-	--web-scale-on-resize: true;
-	--web-enable-deep-linking: true;
-}
+
+body {
+	overflow: hidden; /* Hide scrollbars */
+  }
+
 #Blob_n {
 	fill: url(#Blob_n);
 	stroke: rgba(112,112,112,1);
@@ -35,20 +23,18 @@
 }
 .Blob_n {
 	filter: drop-shadow(6px 6px 30px rgba(0, 0, 0, 0.561));
-	overflow: visible;
-	position: absolute;
-	width: 791.089px;
-	height: 504.569px;
-	left: 700px;
-	top: -30px;
+	overflow: hidden;
+	position: relative;
+	width: 60%;
+	left: 47%;
 	transform: matrix(1,0,0,1,0,0);
 }
 #Math_Helper {
-	left: 47px;
-	top: 23px;
+	left: 2%;
+	top: 4%;
 	position: absolute;
-	overflow: visible;
-	width: 191px;
+	overflow: hidden;
+	width: 100%;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Montserrat;
@@ -58,10 +44,10 @@
 	color: rgba(0,0,0,1);
 }
 #Calculator {
-	left: 756px;
-	top: 27px;
+	left: 55%;
+	top: 4%;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 126px;
 	white-space: nowrap;
 	text-align: left;
@@ -72,10 +58,10 @@
 	color: rgba(255,255,255,1);
 }
 #Formula_Bank {
-	left: 911px;
-	top: 27px;
+	left: 65%;
+	top: 4%;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 177px;
 	white-space: nowrap;
 	text-align: left;
@@ -86,10 +72,10 @@
 	color: rgba(255,255,255,1);
 }
 #Other {
-	left: 1117px;
-	top: 27px;
+	left: 79%;
+	top: 4%;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 74px;
 	white-space: nowrap;
 	text-align: left;
@@ -100,10 +86,10 @@
 	color: rgba(255,255,255,1);
 }
 #Donate_ {
-	left: 1237px;
-	top: 24px;
+	left: 88%;
+	top: 4%;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 134px;
 	white-space: nowrap;
 	text-align: left;
@@ -117,20 +103,18 @@
 	fill: rgba(255,255,255,1);
 }
 .dropdown_arrow {
-	overflow: visible;
+	overflow: hidden;
 	position: absolute;
-	width: 18.467px;
-	height: 10.167px;
-	left: 1194.667px;
-	top: 36.917px;
+	width: 2%;
+	left: 85%;
+	top: 5.5%;
 	transform: matrix(1,0,0,1,0,0);
 }
 #Math_Helper_u {
-	left: 506px;
-	top: 239px;
+	left: 35%;
+	top: 35%;
 	position: absolute;
-	overflow: visible;
-	width: 389px;
+	overflow: hidden;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Montserrat;
@@ -140,11 +124,10 @@
 	color: rgba(0,0,0,1);
 }
 #The_only_calculator_you_will_e {
-	left: 324px;
-	top: 312px;
+	left: 25%;
+	top: 47%;
 	position: absolute;
-	overflow: visible;
-	width: 737px;
+	overflow: hidden;
 	white-space: nowrap;
 	text-align: left;
 	font-family: Montserrat;
@@ -157,7 +140,7 @@
 	left: 404px;
 	top: 420px;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 136px;
 	white-space: nowrap;
 	text-align: left;
@@ -172,7 +155,7 @@
 }
 .Stats14_y {
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 55px;
 	height: 26px;
 	left: 553px;
@@ -183,7 +166,7 @@
 }
 .Stats23_ {
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 55px;
 	height: 26px;
 	left: 939px;
@@ -193,7 +176,7 @@
 	left: 769px;
 	top: 420px;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 157px;
 	white-space: nowrap;
 	text-align: left;
@@ -207,7 +190,7 @@
 	left: 571px;
 	top: 426px;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 21px;
 	white-space: nowrap;
 	text-align: left;
@@ -221,7 +204,7 @@
 	left: 956px;
 	top: 426px;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 23px;
 	white-space: nowrap;
 	text-align: left;
@@ -242,7 +225,7 @@
 }
 .AD1 {
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 117px;
 	height: 394px;
 	left: 0px;
@@ -258,7 +241,7 @@
 	shape-rendering: auto;
 }
 .Divider {
-	overflow: visible;
+	overflow: hidden;
 	position: absolute;
 	width: 1400px;
 	height: 1px;
@@ -270,7 +253,7 @@
 	left: 404.5px;
 	top: 625px;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 72px;
 	white-space: nowrap;
 	text-align: left;
@@ -284,7 +267,7 @@
 	left: 955.5px;
 	top: 626px;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 85px;
 	white-space: nowrap;
 	text-align: left;
@@ -298,7 +281,7 @@
 	left: 1092.5px;
 	top: 626px;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 274px;
 	white-space: nowrap;
 	text-align: left;
@@ -312,7 +295,7 @@
 	left: 1092.5px;
 	top: 649px;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 185px;
 	white-space: nowrap;
 	text-align: left;
@@ -326,7 +309,7 @@
 	left: 404.5px;
 	top: 655px;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 97px;
 	white-space: nowrap;
 	text-align: left;
@@ -340,7 +323,7 @@
 	left: 608.5px;
 	top: 625px;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 66px;
 	white-space: nowrap;
 	text-align: left;
@@ -354,7 +337,7 @@
 	left: 607.5px;
 	top: 655px;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 161px;
 	white-space: nowrap;
 	text-align: left;
@@ -368,7 +351,7 @@
 	left: 780.5px;
 	top: 655px;
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 101px;
 	white-space: nowrap;
 	text-align: left;
@@ -389,7 +372,7 @@
 }
 .AD2 {
 	position: absolute;
-	overflow: visible;
+	overflow: hidden;
 	width: 357px;
 	height: 61px;
 	left: 13.5px;
