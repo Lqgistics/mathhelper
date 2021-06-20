@@ -1,0 +1,397 @@
+.mediaViewInfo {
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Home;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Home {
+	position: absolute;
+	width: 1400px;
+	height: 680.5px;
+	background-color: rgba(243,243,243,1);
+	overflow: hidden;
+	--web-view-name: Home;
+	--web-view-id: Home;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+#Blob_n {
+	fill: url(#Blob_n);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Blob_n {
+	filter: drop-shadow(6px 6px 30px rgba(0, 0, 0, 0.561));
+	overflow: visible;
+	position: absolute;
+	width: 791.089px;
+	height: 504.569px;
+	left: 700px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Math_Helper {
+	left: 47px;
+	top: 23px;
+	position: absolute;
+	overflow: visible;
+	width: 191px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#Calculator {
+	left: 756px;
+	top: 27px;
+	position: absolute;
+	overflow: visible;
+	width: 126px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Formula_Bank {
+	left: 911px;
+	top: 27px;
+	position: absolute;
+	overflow: visible;
+	width: 177px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Other {
+	left: 1117px;
+	top: 27px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#Donate_ {
+	left: 1237px;
+	top: 24px;
+	position: absolute;
+	overflow: visible;
+	width: 134px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 25px;
+	color: rgba(255,255,255,1);
+}
+#dropdown_arrow {
+	fill: rgba(255,255,255,1);
+}
+.dropdown_arrow {
+	overflow: visible;
+	position: absolute;
+	width: 18.467px;
+	height: 10.167px;
+	left: 1194.667px;
+	top: 36.917px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Math_Helper_u {
+	left: 506px;
+	top: 239px;
+	position: absolute;
+	overflow: visible;
+	width: 389px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+	color: rgba(0,0,0,1);
+}
+#The_only_calculator_you_will_e {
+	left: 324px;
+	top: 312px;
+	position: absolute;
+	overflow: visible;
+	width: 737px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 40px;
+	color: rgba(0,0,0,1);
+}
+#UK_GCSE {
+	left: 404px;
+	top: 420px;
+	position: absolute;
+	overflow: visible;
+	width: 136px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#Stats14_y {
+	fill: url(#Stats14_y);
+}
+.Stats14_y {
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	height: 26px;
+	left: 553px;
+	top: 426px;
+}
+#Stats23_ {
+	fill: url(#Stats23_);
+}
+.Stats23_ {
+	position: absolute;
+	overflow: visible;
+	width: 55px;
+	height: 26px;
+	left: 939px;
+	top: 426px;
+}
+#UK_A_Level {
+	left: 769px;
+	top: 420px;
+	position: absolute;
+	overflow: visible;
+	width: 157px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+	color: rgba(0,0,0,1);
+}
+#ID14 {
+	left: 571px;
+	top: 426px;
+	position: absolute;
+	overflow: visible;
+	width: 21px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#ID23 {
+	left: 956px;
+	top: 426px;
+	position: absolute;
+	overflow: visible;
+	width: 23px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 20px;
+	color: rgba(255,255,255,1);
+}
+#AD1 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.AD1 {
+	position: absolute;
+	overflow: visible;
+	width: 117px;
+	height: 394px;
+	left: 0px;
+	top: 197px;
+}
+#Divider {
+	fill: transparent;
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Divider {
+	overflow: visible;
+	position: absolute;
+	width: 1400px;
+	height: 1px;
+	left: 0px;
+	top: 606.5px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#About_us {
+	left: 404.5px;
+	top: 625px;
+	position: absolute;
+	overflow: visible;
+	width: 72px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Contact_us {
+	left: 955.5px;
+	top: 626px;
+	position: absolute;
+	overflow: visible;
+	width: 85px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Got_any_new_suggestions_or_que {
+	left: 1092.5px;
+	top: 626px;
+	position: absolute;
+	overflow: visible;
+	width: 274px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#mathhelpergmailcom {
+	left: 1092.5px;
+	top: 649px;
+	position: absolute;
+	overflow: visible;
+	width: 185px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,123,255,1);
+}
+#Who_are_we {
+	left: 404.5px;
+	top: 655px;
+	position: absolute;
+	overflow: visible;
+	width: 97px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Support {
+	left: 608.5px;
+	top: 625px;
+	position: absolute;
+	overflow: visible;
+	width: 66px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Terms_and_conditions {
+	left: 607.5px;
+	top: 655px;
+	position: absolute;
+	overflow: visible;
+	width: 161px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#Privacy_Policy {
+	left: 780.5px;
+	top: 655px;
+	position: absolute;
+	overflow: visible;
+	width: 101px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 15px;
+	color: rgba(0,0,0,1);
+}
+#AD2 {
+	fill: rgba(255,255,255,1);
+	stroke: rgba(112,112,112,1);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.AD2 {
+	position: absolute;
+	overflow: visible;
+	width: 357px;
+	height: 61px;
+	left: 13.5px;
+	top: 614px;
+}
