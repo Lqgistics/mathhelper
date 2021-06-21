@@ -1,16 +1,59 @@
-.mediaViewInfo {
-	--web-view-name: Home;
-	--web-view-id: Home;
-	--web-scale-on-resize: true;
-	--web-enable-deep-linking: true;
-}
-:root {
-	--web-view-ids: Home;
+body {
+    overflow-y: visible; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    
+  }
+
+  #UK_GCSE {
+	top: 180px;
+	position: relative;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
 }
 
-body {
-	overflow: hidden; /* Hide scrollbars */
-  }
+#UK_A_Level {
+	top: 190px;
+	position: relative;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+}    
+
+#Math_Helper_u {
+	top: 180px;
+	position: relative;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+#mathhelper {
+	bottom: 137px;
+    left: 10px;
+	position: relative;
+	text-align: left;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#Description {
+	top: 160px;
+	position: relative;
+	text-align: center;
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 30px;
+}
 
 #Blob_n {
 	fill: url(#Blob_n);
@@ -23,358 +66,95 @@ body {
 }
 .Blob_n {
 	filter: drop-shadow(6px 6px 30px rgba(0, 0, 0, 0.561));
-	overflow: hidden;
-	position: relative;
+	position: fixed;
 	width: 60%;
-	left: 47%;
+	left: 45%;
+    top: 0px;
 	transform: matrix(1,0,0,1,0,0);
+    z-index: -1;
 }
-#Math_Helper {
-	left: 2%;
-	top: 4%;
-	position: absolute;
+
+
+  .button {
+    border: none;
+    color: rgb(10, 186, 255);
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  .button1 {
+    color: rgb(0, 119, 255); 
+    border-radius: 12px;
+  }
+  
+  .button1:hover {
+    background-color: #6eb9ff;
+    color: rgb(0, 102, 255);
+    border-radius: 12px;
+  }
+
+  .navbar {
 	overflow: hidden;
-	width: 100%;
-	white-space: nowrap;
-	text-align: left;
+  }
+  
+  .navbar a {
+	float: right;
+	font-size: 16px;
+	color: white;
+	text-align: center;
 	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 30px;
-	color: rgba(0,0,0,1);
-}
-#Calculator {
-	left: 55%;
-	top: 4%;
-	position: absolute;
-	overflow: hidden;
-	width: 126px;
-	white-space: nowrap;
-	text-align: left;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  .dropdown {
+	float: left;
+  }
+  
+  .dropdown .dropbtn {
+	font-size: 16px;  
+	border: none;
+	outline: none;
+	color: white;
+	padding: 14px 16px;
+	background-color: inherit;
 	font-family: Montserrat;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 25px;
-	color: rgba(255,255,255,1);
-}
-#Formula_Bank {
-	left: 65%;
-	top: 4%;
-	position: absolute;
-	overflow: hidden;
-	width: 177px;
-	white-space: nowrap;
+	margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: red;
+  }
+  
+  .dropdown-content {
+	display: none;
+	position: fixed;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+  .dropdown-content a {
+	float: none;
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
 	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 25px;
-	color: rgba(255,255,255,1);
-}
-#Other {
-	left: 79%;
-	top: 4%;
-	position: absolute;
-	overflow: hidden;
-	width: 74px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 25px;
-	color: rgba(255,255,255,1);
-}
-#Donate_ {
-	left: 88%;
-	top: 4%;
-	position: absolute;
-	overflow: hidden;
-	width: 134px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 25px;
-	color: rgba(255,255,255,1);
-}
-#dropdown_arrow {
-	fill: rgba(255,255,255,1);
-}
-.dropdown_arrow {
-	overflow: hidden;
-	position: absolute;
-	width: 2%;
-	left: 85%;
-	top: 5.5%;
-	transform: matrix(1,0,0,1,0,0);
-}
-#Math_Helper_u {
-	left: 35%;
-	top: 35%;
-	position: absolute;
-	overflow: hidden;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: bold;
-	font-size: 60px;
-	color: rgba(0,0,0,1);
-}
-#The_only_calculator_you_will_e {
-	left: 25%;
-	top: 47%;
-	position: absolute;
-	overflow: hidden;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 40px;
-	color: rgba(0,0,0,1);
-}
-#UK_GCSE {
-	left: 404px;
-	top: 420px;
-	position: absolute;
-	overflow: hidden;
-	width: 136px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 30px;
-	color: rgba(0,0,0,1);
-}
-#Stats14_y {
-	fill: url(#Stats14_y);
-}
-.Stats14_y {
-	position: absolute;
-	overflow: hidden;
-	width: 55px;
-	height: 26px;
-	left: 553px;
-	top: 426px;
-}
-#Stats23_ {
-	fill: url(#Stats23_);
-}
-.Stats23_ {
-	position: absolute;
-	overflow: hidden;
-	width: 55px;
-	height: 26px;
-	left: 939px;
-	top: 426px;
-}
-#UK_A_Level {
-	left: 769px;
-	top: 420px;
-	position: absolute;
-	overflow: hidden;
-	width: 157px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 30px;
-	color: rgba(0,0,0,1);
-}
-#ID14 {
-	left: 571px;
-	top: 426px;
-	position: absolute;
-	overflow: hidden;
-	width: 21px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 20px;
-	color: rgba(255,255,255,1);
-}
-#ID23 {
-	left: 956px;
-	top: 426px;
-	position: absolute;
-	overflow: hidden;
-	width: 23px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 20px;
-	color: rgba(255,255,255,1);
-}
-#AD1 {
-	fill: rgba(255,255,255,1);
-	stroke: rgba(112,112,112,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-.AD1 {
-	position: absolute;
-	overflow: hidden;
-	width: 117px;
-	height: 394px;
-	left: 0px;
-	top: 197px;
-}
-#Divider {
-	fill: transparent;
-	stroke: rgba(112,112,112,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-.Divider {
-	overflow: hidden;
-	position: absolute;
-	width: 1400px;
-	height: 1px;
-	left: 0px;
-	top: 606.5px;
-	transform: matrix(1,0,0,1,0,0);
-}
-#About_us {
-	left: 404.5px;
-	top: 625px;
-	position: absolute;
-	overflow: hidden;
-	width: 72px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 15px;
-	color: rgba(0,0,0,1);
-}
-#Contact_us {
-	left: 955.5px;
-	top: 626px;
-	position: absolute;
-	overflow: hidden;
-	width: 85px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 15px;
-	color: rgba(0,0,0,1);
-}
-#Got_any_new_suggestions_or_que {
-	left: 1092.5px;
-	top: 626px;
-	position: absolute;
-	overflow: hidden;
-	width: 274px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 15px;
-	color: rgba(0,0,0,1);
-}
-#mathhelpergmailcom {
-	left: 1092.5px;
-	top: 649px;
-	position: absolute;
-	overflow: hidden;
-	width: 185px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 15px;
-	color: rgba(0,123,255,1);
-}
-#Who_are_we {
-	left: 404.5px;
-	top: 655px;
-	position: absolute;
-	overflow: hidden;
-	width: 97px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 15px;
-	color: rgba(0,0,0,1);
-}
-#Support {
-	left: 608.5px;
-	top: 625px;
-	position: absolute;
-	overflow: hidden;
-	width: 66px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 15px;
-	color: rgba(0,0,0,1);
-}
-#Terms_and_conditions {
-	left: 607.5px;
-	top: 655px;
-	position: absolute;
-	overflow: hidden;
-	width: 161px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 15px;
-	color: rgba(0,0,0,1);
-}
-#Privacy_Policy {
-	left: 780.5px;
-	top: 655px;
-	position: absolute;
-	overflow: hidden;
-	width: 101px;
-	white-space: nowrap;
-	text-align: left;
-	font-family: Montserrat;
-	font-style: normal;
-	font-weight: lighter;
-	font-size: 15px;
-	color: rgba(0,0,0,1);
-}
-#AD2 {
-	fill: rgba(255,255,255,1);
-	stroke: rgba(112,112,112,1);
-	stroke-width: 1px;
-	stroke-linejoin: miter;
-	stroke-linecap: butt;
-	stroke-miterlimit: 4;
-	shape-rendering: auto;
-}
-.AD2 {
-	position: absolute;
-	overflow: hidden;
-	width: 357px;
-	height: 61px;
-	left: 13.5px;
-	top: 614px;
-}
+  }
+  
+  .dropdown-content a:hover {
+	background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
